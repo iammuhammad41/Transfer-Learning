@@ -10,7 +10,7 @@ from torchvision.datasets import CocoDetection
 from pycocotools.coco import COCO
 
 #######################################
-# IMAGE CLASSIFICATION: ImageNet 🖼️
+# IMAGE CLASSIFICATION: ImageNet 
 #######################################
 
 class ImageNetValDataset(Dataset):
@@ -112,7 +112,7 @@ def train_imagenet_classification(
     print("Saved finetuned classification model.")
 
 #######################################
-# OBJECT DETECTION: COCO2017 🎯
+# OBJECT DETECTION: COCO2017 
 #######################################
 
 def collate_fn(batch):
